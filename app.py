@@ -11,7 +11,7 @@ def hello():
     now = datetime.now()
     timestamp = now.strftime("%d/%m/%Y %H:%M:%S") 
     hostname = socket.gethostname()
-    return "$%s %s %s %s" % ("Hello world from ", hostname, " at ", timestamp)
+    return "$%s %s %s %s" % ("Hello good world from ", hostname, " at ", timestamp)
 
 if __name__ == "__main__":
     app.run(host='0.0.0.0')
