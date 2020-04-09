@@ -14,4 +14,4 @@ def hello():
     return "$%s %s %s %s" % ("Hello good world from ", hostname, " at ", timestamp)
 
 if __name__ == "__main__":
-    app.run(host='0.0.0.0')
+    app.run(host='0.0.0.0', port='8080')
